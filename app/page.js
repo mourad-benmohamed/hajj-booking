@@ -256,7 +256,7 @@ export default function Home() {
             </div>
             <div className="w-full flex flex-col justify-between md:w-1/2">
               <div className="">
-                <h2 className="text-lg font-normal uppercase dark:text-gray-300">
+                <h2 className="text-lg font-normal uppercase text-gray-700 dark:text-gray-300">
                   WHO WE ARE
                 </h2>
                 <p className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white leading-relaxed">

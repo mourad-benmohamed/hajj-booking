@@ -56,7 +56,7 @@ const PackagesCard = ({ imageSrc, title, price, lastPrice, stars, buttonText, po
           className="absolute top-2 right-2 md:top-4 md:right-4 rounded-full bg-white dark:bg-gray-700 py-2 px-3 md:py-3 md:px-4 shadow-lg shadow-gray-700/30 dark:shadow-black/40"
           aria-hidden="true"
         >
-          <p className="text-xs font-semibold dark:text-gray-100">
+          <p className="text-xs font-semibold text-gray-900 dark:text-gray-100">
             2 Days 3 Nights
           </p>
         </div>
@@ -64,10 +64,10 @@ const PackagesCard = ({ imageSrc, title, price, lastPrice, stars, buttonText, po
         {/* Popular Badge */}
         {popular && (
           <div
-            className="absolute bottom-2 left-2 md:bottom-4 md:left-4 rounded-full py-2 px-3 bg-black/35 dark:bg-white/25 md:py-2 md:px-3 shadow-lg shadow-gray-700/30 dark:shadow-black/40"
+            className="absolute bottom-2 left-2 md:bottom-4 md:left-4 rounded-full py-2 px-3 bg-black/35 dark:bg-white/50 md:py-2 md:px-3 shadow-lg shadow-gray-700/30 dark:shadow-black/40"
             aria-hidden="true"
           >
-            <p className="z-3 text-xs font-medium flex items-center text-white dark:text-gray-100">
+            <p className="z-3 text-xs font-medium flex items-center text-white dark:text-gray-900">
               <FaFlag className="mr-1" />
               Popular
             </p>
@@ -129,10 +129,10 @@ const PackagesCard = ({ imageSrc, title, price, lastPrice, stars, buttonText, po
               USD {lastPrice}
             </p>
             <span className="flex items-end space-x-1 flex-nowrap font-bold md:mt-1">
-              <p className="text-xs md:text-sm font-semibold leading-6 dark:text-gray-300">
+              <p className="text-xs md:text-sm font-semibold leading-6 text-gray-700 dark:text-gray-300">
                 USD
               </p>
-              <span className="text-lg md:text-xl dark:text-white">
+              <span className="text-lg md:text-xl text-gray-700 dark:text-white">
                 {price}/
               </span>
             </span>

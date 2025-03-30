@@ -36,15 +36,15 @@ const Navbar = () => {
           {/* logo end */}
 
           {/* search form start */}
-          <form className="flex items-center border-2 rounded-full w-[60%] dark:border-gray-700">
+          <form className="flex items-center border-2 rounded-full w-[60%] border-gray-900 dark:border-gray-200">
             <label htmlFor="search" className="py-1">
-              <FiSearch className="w-6 h-6 mx-3 dark:text-gray-300" />
+              <FiSearch className="w-6 h-6 mx-2 text-gray-900 dark:text-gray-200" />
             </label>
             <input
               type="text"
               id="search"
               placeholder="Search package"
-              className="bg-transparent placeholder:text-black dark:placeholder:text-gray-300 outline-none text-sm border-none py-1 dark:text-white"
+              className="w-full bg-transparent text-gray-900 placeholder:text-black dark:placeholder:text-gray-300 outline-none text-sm border-none py-1 dark:text-white"
             />
           </form>
           {/* search form end */}
@@ -56,7 +56,7 @@ const Navbar = () => {
             <ul className="flex flex-nowrap items-center space-x-6">
               {["About", "How it works", "Support", "Contact"].map((item) => (
                 <li key={item}>
-                  <Link href={"#"} className="dark:text-white">
+                  <Link href={"#"} className="text-gray-900 dark:text-white">
                     {item}
                   </Link>
                 </li>

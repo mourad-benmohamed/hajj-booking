@@ -62,17 +62,17 @@ const DownloadOurApp = () => {
           >
             <motion.h2
               style={{ y, opacity }}
-              className="text-3xl lg:text-5xl font-medium dark:text-white"
+              className="text-3xl lg:text-5xl font-medium text-gray-900 dark:text-white"
             >
               Our app is now live! <br />
               Download and go!
             </motion.h2>
 
             <motion.div style={{ y, opacity }}>
-              <p className="text-xl lg:text-3xl mt-12 dark:text-gray-300">
+              <p className="text-xl lg:text-3xl mt-12 text-gray-900 dark:text-gray-300">
                 Plan your Dream Hajj in minutes
               </p>
-              <p className="text-xl lg:text-3xl dark:text-gray-300">
+              <p className="text-xl lg:text-3xl text-gray-900 dark:text-gray-300">
                 with our stunning app!
               </p>
 
@@ -120,15 +120,15 @@ const DownloadOurApp = () => {
                 className="relative"
               >
                 <div className="absolute left-5 top-0 bottom-0 flex justify-center items-center">
-                  <IoSearch className="text-xl dark:text-gray-400" />
+                  <IoSearch className="text-xl text-gray-800 dark:text-gray-400" />
                 </div>
                 <input
                   type="text"
                   placeholder="Search package by date"
-                  className="shadow-lg shadow-gray-200 dark:shadow-gray-900 bg-white dark:bg-gray-700 w-full px-14 rounded-full py-3 placeholder:text-gray-700 dark:placeholder:text-gray-300 placeholder:font-semibold text-gray-900 dark:text-white"
+                  className="shadow-lg shadow-gray-200 text-gray-800 dark:shadow-gray-900 bg-white dark:bg-gray-700 w-full px-14 rounded-full py-3 placeholder:text-gray-700 dark:placeholder:text-gray-300 placeholder:font-semibold dark:text-white"
                 />
                 <div className="absolute right-5 top-0 bottom-0 flex justify-center items-center">
-                  <LuSettings2 className="text-xl dark:text-gray-400" />
+                  <LuSettings2 className="text-xl text-gray-800 dark:text-gray-400" />
                 </div>
               </motion.div>
 
@@ -162,7 +162,7 @@ const DownloadOurApp = () => {
                 style={{ y, opacity }}
                 className="flex justify-between py-4"
               >
-                <h2 className="text-lg font-semibold dark:text-white">
+                <h2 className="text-lg font-semibold text-gray-800 dark:text-white">
                   Umrah Packages
                 </h2>
                 <button className="text-green-500 dark:text-green-400 text-sm">
@@ -188,7 +188,7 @@ const DownloadOurApp = () => {
                     style={{ x: y, opacity }}
                     className="absolute top-2 right-2 md:top-4 md:right-4 rounded-full bg-white dark:bg-gray-600 py-2 px-3 md:py-3 md:px-4 shadow-lg shadow-gray-700/30 dark:shadow-gray-900/30"
                   >
-                    <p className="text-xs font-semibold dark:text-white">
+                    <p className="text-xs font-semibold text-gray-900 dark:text-white">
                       2 Days 3 Nights
                     </p>
                   </motion.div>
@@ -207,7 +207,7 @@ const DownloadOurApp = () => {
                 <div className="px-3 md:px-4">
                   <motion.h3
                     style={{ y, opacity }}
-                    className="w-full text-left text-sm font-bold mt-4 leading-tight line-clamp-2 overflow-hidden dark:text-white"
+                    className="w-full text-left text-sm font-bold mt-4 leading-tight line-clamp-2 overflow-hidden text-gray-800 dark:text-white"
                   >
                     Umrah pilgrimage - concludes in Madinah
                   </motion.h3>
