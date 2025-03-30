@@ -96,7 +96,7 @@ npm run dev
 - **Project Maintainer:** Mourad Benmohamed  
 - **Email:** [saadazzouzi4@gmail.com](mailto:saadazzouzi4@gmail.com)  
 - **Whatsapp Number:** [+212642899597](https://wa.me/212642899597)  
-- **Project Link:** [Hajj Booking System](http://hajj-booking.46.202.159.87.sslip.io/)
+- **PREVIEW LINK (DEMO):** [Hajj Booking System DEMO](http://hajj-booking.46.202.159.87.sslip.io/)
 ```
 
 ## Appendix
