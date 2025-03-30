@@ -1,16 +1,35 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FiSearch, FiMenu, FiX } from "react-icons/fi";
 import ThemeToggleButton from "./ThemeToggleButton";
 
 const MobileNavbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <>
       {/* Mobile Navbar Header */}
-      <header className="lg:hidden dark:bg-gray-900 bg-white flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
+      <header
+        className={
+          "lg:hidden dark:bg-gray-900 bg-white flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700 " +
+          `${
+            isScrolled
+              ? "bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm fixed top-0 left-0 right-0 z-50"
+              : "bg-transparent"
+          }`
+        }
+      >
         <div className="flex items-center space-x-4">
           {/* Logo */}
           <div className="flex items-center">
