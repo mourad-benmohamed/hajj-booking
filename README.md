@@ -1,6 +1,7 @@
 # Hajj & Umrah Pilgrimage Booking Platform
 
 ## Project Overview
+### - **DEMO:** [Hajj Booking System DEMO](http://hajj-booking.46.202.159.87.sslip.io/)
 
 ### Purpose
 A comprehensive web application designed to simplify and streamline the process of booking Hajj and Umrah pilgrimages, providing users with an intuitive, informative, and user-friendly experience.
