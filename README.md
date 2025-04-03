@@ -1,6 +1,7 @@
 # Hajj & Umrah Pilgrimage Booking Platform
 
 ## Project Overview
+### - **DEMO:** [Hajj Booking System DEMO](http://hajj-booking.46.202.159.87.sslip.io/)
 
 ### Purpose
 A comprehensive web application designed to simplify and streamline the process of booking Hajj and Umrah pilgrimages, providing users with an intuitive, informative, and user-friendly experience.
@@ -92,10 +93,10 @@ npm run dev
 
 
 ## Contact
-- Project Maintainer: Mourad Benmohamed
-- Email: saadazzouzi4@gmail.com
-- Whatsapp Number: +212642899597
-- Project Link: soon
+- **Project Maintainer:** Mourad Benmohamed  
+- **Email:** [saadazzouzi4@gmail.com](mailto:saadazzouzi4@gmail.com)  
+- **Whatsapp Number:** [+212642899597](https://wa.me/212642899597)  
+- **PREVIEW LINK (DEMO):** [Hajj Booking System DEMO](http://hajj-booking.46.202.159.87.sslip.io/)
 ```
 
 ## Appendix
