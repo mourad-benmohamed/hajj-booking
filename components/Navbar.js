@@ -63,7 +63,7 @@ const Navbar = () => {
               type="text"
               id="search"
               placeholder="Search package"
-              autoComplete={false}
+              autoComplete="false"
               className="w-full bg-transparent text-gray-900 placeholder:text-black dark:placeholder:text-gray-300 outline-none text-sm border-none py-1 dark:text-white"
             />
           </form>
